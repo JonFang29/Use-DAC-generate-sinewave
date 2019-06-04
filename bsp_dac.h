@@ -1,10 +1,9 @@
-#ifndef __DAC_H
+ï»¿#ifndef __DAC_H
 #define	__DAC_H
-
 
 #include "stm32f4xx.h"
 
-#define DAC_DHR12RD_Address     (uint32_t)(DAC_BASE+0x20)   //DACÍ¨µÀÊı¾İÊä³ö¼Ä´æÆ÷µØÖ·  0x40007420//
+#define DAC_DHR12RD_Address     (uint32_t)(DAC_BASE+0x20)   //DACé€šé“æ•°æ®è¾“å‡ºå¯„å­˜å™¨åœ°å€  0x40007420//
 
 #define DAC_CLK                     RCC_APB1Periph_DAC
 #define DAC_TIM                     TIM2
